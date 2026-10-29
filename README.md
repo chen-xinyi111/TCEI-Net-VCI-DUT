@@ -6,7 +6,7 @@ The upstream VCI-DUT dataset was released by its original authors at https://git
 
 ## Download
 
-Download `TCEI-Net-VCI-DUT-processed-v1.0.zip` from the repository's Releases page. Extract the archive to obtain `data/train_data.npz`, `data/val_data.npz`, `data/test_data.npz`, `data/norm_params.pkl`, and `data/processing_stats.pkl`.
+Download `TCEI-Net-VCI-DUT-processed.zip` from the repository's Releases page. Extract the archive to obtain `data/train_data.npz`, `data/val_data.npz`, `data/test_data.npz`, `data/norm_params.pkl`, and `data/processing_stats.pkl`.
 
 ## Split protocol
 

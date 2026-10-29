@@ -1,5 +1,4 @@
 {
-  "version": "1.0",
   "date": "2026-10-28",
   "upstream": "https://github.com/dongfang-steven-yang/vci-dataset-dut",
   "split_unit": "scene-frame group",

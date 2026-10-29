@@ -1,0 +1,52 @@
+{
+  "version": "1.0",
+  "date": "2026-10-28",
+  "upstream": "https://github.com/dongfang-steven-yang/vci-dataset-dut",
+  "split_unit": "scene-frame group",
+  "splits": {
+    "train": {
+      "trajectory_windows": 121489,
+      "scene_frame_groups": 3864
+    },
+    "validation": {
+      "trajectory_windows": 35033,
+      "scene_frame_groups": 1104
+    },
+    "test": {
+      "trajectory_windows": 18864,
+      "scene_frame_groups": 553
+    }
+  },
+  "history_steps": 7,
+  "future_steps": 10,
+  "pedestrian_identities_may_cross_splits": true,
+  "same_scene_frame_across_splits": false,
+  "model_source_code_included": false,
+  "files": [
+    {
+      "path": "data/train_data.npz",
+      "bytes": 236765051,
+      "sha256": "8204051a0fd9c32169dea5bb6fb6aad8286abcea7bebcfe9ffbb205c77ad657a"
+    },
+    {
+      "path": "data/val_data.npz",
+      "bytes": 68276303,
+      "sha256": "af3a11b9e3d61bbd1d112ef9f295376feb4c36add39401ba7fb9521b515835a1"
+    },
+    {
+      "path": "data/test_data.npz",
+      "bytes": 36765049,
+      "sha256": "95572185c8d509e2409650b17af2dd40f2f333b66e687b97ad0ff92bc05ecfb6"
+    },
+    {
+      "path": "data/norm_params.pkl",
+      "bytes": 562,
+      "sha256": "87a27296cb365154da3b11f306e0f81582ddf40345954a0da3697b547fa90099"
+    },
+    {
+      "path": "data/processing_stats.pkl",
+      "bytes": 3918,
+      "sha256": "22ac81dfab9e1e2c0cad7df2eb5e46a21d92c60cf2a8e2334e9ecd98f30c4377"
+    }
+  ]
+}
